@@ -15,17 +15,10 @@ const Navbar = () => (
       justifyContent: "space-between",
     }}
   >
-    <Link
-      to="/"
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-      }}
-    >
+    <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
-      <SearchBar />
     </Link>
+    <SearchBar />
   </Stack>
 );
 
