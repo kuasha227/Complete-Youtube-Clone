@@ -42,7 +42,7 @@ const VideoCard = ({
           snippet?.channelId ? `/channel/${snippet?.channelId}` : demoChannelUrl
         }
       >
-        <Typography variant="subtitle2" color="gray">
+        <Typography variant="subtitle2" color="white">
           {snippet?.channelTitle || demoChannelTitle}
           <CheckCircleIcon
             sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
